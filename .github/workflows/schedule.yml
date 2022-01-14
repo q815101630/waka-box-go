@@ -15,8 +15,6 @@ jobs:
     name: Update-gist
     runs-on: ubuntu-latest
     env:
-      UPDATE_OPTION: MARKDOWN
-      MARKDOWN_FILE: https://github.com/q815101630/q815101630/blob/main/README.md
       WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
       GIST_ID: 538a035110d3c955b7ad1ef64e53bd9a
